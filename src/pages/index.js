@@ -5,6 +5,7 @@ import Navbar from '@/Components/Navbar/Navbar'
 import Subtitle from '@/Components/tipography/subtitle/subtitle'
 import Container from '@/Components/container/container'
 import SaleCard from '@/Components/cards/saleCard/saleCard'
+import Gamecard from '@/Components/cards/gamecard/gamecard'
 
 export default function Home() {
   return (
@@ -28,6 +29,11 @@ export default function Home() {
           </div>
           <div className={styles.session}>
             <Subtitle>Outros Jogos</Subtitle>
+            <div>
+              <Gamecard />
+              <Gamecard />
+              <Gamecard />
+            </div>
           </div>
         </Container>
       </div>
